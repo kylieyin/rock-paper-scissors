@@ -10,6 +10,7 @@ function otterPlay() {
     return options[Math.floor(Math.random() * options.length)];
 }
 
+
 // declares a constant variable defined as 'computerChoice'
 // assigns the earlier defined array 'options' to 'computerChoice'
 // 'Math.random()' generates a random number between 0 and 1
