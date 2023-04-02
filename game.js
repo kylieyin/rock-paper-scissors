@@ -9,9 +9,7 @@ let otterScore = 0;
 function otterPlay() {
     return options[Math.floor(Math.random() * options.length)];
 }
-
-
-// declares a constant variable defined as 'computerChoice'
+// creates function 'otterPlay'
 // assigns the earlier defined array 'options' to 'computerChoice'
 // 'Math.random()' generates a random number between 0 and 1
 // 'options.length' determines the number of elements in the 'options' array (being 3)
