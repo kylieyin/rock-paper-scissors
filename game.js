@@ -37,26 +37,26 @@ function roundStart(playerSelection) {
         playerSelection === "scissors" && otterSelection === "paper") 
     {
         playerScore += 1;
-        result = "you win this round! " + playerSelection + " beats " + otterSelection + 
+        result = "you win this round! ヾ( ˃ᴗ˂ )◞ • *✰ " + playerSelection + " beats " + otterSelection + 
         "<br><br>Player Score: " + playerScore + "<br>Otter Score: " + otterScore;
         
         if (playerScore === 5) {
-            result += "<br><br>you won the game! reload page to play again";
+            result += "<br><br>YOU WON THE GAME! TIME TO CELEBRATE ヾ( ˃ᴗ˂ )◞ • *✰";
             disableButtons();
         }
     }
     
     else if (playerSelection === otterSelection) {
-        result = "it's a tie! you both chose " + playerSelection + "<br><br>Player Score: " + playerScore + "<br>Otter Score: " + otterScore;
+        result = "it's a tie! ʕ•ᴥ•ʔ you both chose " + playerSelection + "<br><br>Player Score: " + playerScore + "<br>Otter Score: " + otterScore;
                
     } 
     
     else {
         otterScore += 1;
-        result = "you lost this round! " + otterSelection + " beats " + playerSelection + 
+        result = "you lost this round! ( • ᴖ • ｡) " + otterSelection + " beats " + playerSelection + 
         "<br><br>Player Score: " + playerScore + "<br>Otter Score: " + otterScore; 
         if (otterScore === 5) {
-        result += "<br><br>otter won the game! reload page to play again"
+        result += "<br><br>YOU LOST! ( ｡ •̀ ᴖ •́ ｡) OTTER WON 𓆝 𓆟 𓆞 𓆝 𓆟 RELOAD TO TRY AGAIN"
         disableButtons();
       }
     }
